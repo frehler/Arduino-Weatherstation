@@ -2,6 +2,9 @@
 Source: https://benjaminstelzner.de/mq135-gas-sensor/
 */
 #include "MQ135.h"
+#define RLOAD 22000
+//#define RZERO 76.63
+#define RZERO 30600
 
 MQ135 gasSensor = MQ135(A0); 
 int val; 
